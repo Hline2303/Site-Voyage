@@ -16,6 +16,36 @@
         <div id="title">
             <h1>Trouvez votre prochaine destination !</h1>
         </div>
+
+        <form id="form">
+            <div class="field">
+                <select id="pays">
+                    <option value="hawai">Hawaï</option>
+                    <option value="maldives">Les Maldives</option>
+                    <option value="bahamas">Bahamas</option>
+                    <option value="borabora">Bora-Bora</option>
+                    <option value="tahiti">Tahiti</option>
+                </select>
+            </div>
+
+                <!-- Date de départ -->
+                <div class="field">
+                    <input type="date" id="start" value="2021-12-26" min="2021-12-25">
+                </div>
+
+                <!-- Date de retour -->
+                <div class="field">
+                    <input type="date" id="end" value="2021-12-26" min="2021-12-25">
+                </div>
+
+                <button type="submit">
+                    <i class="fas fa-plane"></i>
+                </button>
+        </form>
+
+        <div class="liste-resultats">
+
+        </div>
     </div>
     
     <script src="script.js"></script>
