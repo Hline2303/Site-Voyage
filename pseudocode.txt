@@ -1,0 +1,4 @@
+A la validation du formulaire,
+les valeurs destination, date de départ et date de retour sont récupérées.
+Les valeurs sont stockées.
+Au rafraîchieement de la page, les valeurs stockées sont placées dans le formulaire.
